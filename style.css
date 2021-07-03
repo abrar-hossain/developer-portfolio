@@ -14,6 +14,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half_width{
     width: 50%;
@@ -36,4 +37,31 @@ section{
 {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+h2
+{
+    font-size: 50px;
+}
+.download
+{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.half2-width
+{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.dream-big
+{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
